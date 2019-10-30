@@ -1,0 +1,21 @@
+{
+  "name": "offers-api",
+  "version": "1.0.0",
+  "description": "BlueKeel API to handle the Offer/Feed endpoint service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Weston Gibler",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^5.12.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "epsagon": "^1.40.0",
+    "express": "^4.17.1",
+    "serverless": "^1.55.1",
+    "serverless-http": "^2.3.0"
+  }
+}
